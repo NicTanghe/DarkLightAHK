@@ -1,0 +1,7 @@
+{
+    "policies":  {
+                     "Framework.DataContext":  {
+                                                   "connectionString":  "this is a test"
+                                               }
+                 }
+}

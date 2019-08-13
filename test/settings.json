@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme":  "Ayu Mirage",
+    "window.zoomLevel":  1,
+    "workbench.activityBar.visible":  false,
+    "dart.flutterSdkPath":  "C:\\tools\\flutter\\flutter",
+    "explorer.confirmDelete":  false,
+    "git.enableSmartCommit":  true,
+    "latex-workshop.view.pdf.viewer":  "tab",
+    "editor.minimap.enabled":  false,
+    "breadcrumbs.enabled":  false,
+    "editor.formatOnSave":  true,
+    "window.menuBarVisibility":  "toggle",
+    "autoDarkMode.darkTheme":  "Ayu Mirage",
+    "autoDarkMode.lightTheme":  "Github Light Theme - Gray",
+    "workbench.iconTheme":  "material-icon-theme"
+}

@@ -1,6 +1,8 @@
-Import-Module .\set-wallpaper.psm1
-Import-Module .\set-environmentvariable.psm1
-Import-Module .\resolve-fullpath.psm1
+Import-Module .\common\set-wallpaper.psm1
+Import-Module .\common\set-environmentvariable.psm1
+Import-Module .\common\resolve-fullpath.psm1
+Import-Module .\common\set-vscodewallpaper.psm1
+
 
 $daynight =  [Environment]::GetEnvironmentVariable('daynight', 'User')
 
@@ -38,7 +40,7 @@ if ($daynight -eq "night" ) {
     Set-EnvironmentVariable daynight day User
 
     write-host  $daynight
-
+    Set-VscodeWallpaper "Github Light Theme - Gray"
 } 
 elseif ($daynight -eq "day" ) {
 
@@ -60,4 +62,5 @@ elseif ($daynight -eq "day" ) {
 
     Set-EnvironmentVariable daynight night User
     write-host  $daynight
+    Set-VscodeWallpaper "Ayu Mirage"
 }
